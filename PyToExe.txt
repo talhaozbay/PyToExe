@@ -1,0 +1,9 @@
+pip install pyinstaller
+pyinstaller --onefile --noconsole (projeadı).py 
+
+// ya da
+
+
+pyinstaller --onefile --noconsole --add-data "fotoğraflar;fotoğraflar" --add-data "muzik.mp3;." (projeadı).py
+
+
